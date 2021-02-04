@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { MapContainer, TileLayer } from "react-leaflet";
 import { useEffect, useState } from "react";
