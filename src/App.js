@@ -35,18 +35,16 @@ function App() {
       <MapContainer
         style={{ height: `100vh` }}
         center={[latlng.lat, latlng.lng]}
-        zoom={10}
-        scrollWheelZoom={true}
+        zoom={13}
+        scrollWheelZoom={false}
       >
-        <ChangeView center={[latlng.lat, latlng.lng]} zoom={10} />
+        <ChangeView center={[latlng.lat, latlng.lng]} zoom={13} />
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={[latlng.lat, latlng.lng]}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
+          <Popup>This is your location</Popup>
         </Marker>
       </MapContainer>
     </>

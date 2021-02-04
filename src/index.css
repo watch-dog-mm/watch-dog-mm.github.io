@@ -41,3 +41,8 @@ select::-ms-expand {
     padding: 5px\9;
   }
 }
+
+.leaflet-tile-pane {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
