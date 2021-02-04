@@ -1,6 +1,6 @@
 import { Marker, Popup } from "react-leaflet";
-import { PersonIcon, PoliceIcon, BearerIcon } from "../icons/index";
-
+import { PersonIcon, PoliceIcon, BearerIcon } from "../../icons/index";
+import "./index.css";
 export const PersonMarker = ({ position, message }) => (
   <Marker position={position} icon={PersonIcon}>
     <Popup>{message}</Popup>
