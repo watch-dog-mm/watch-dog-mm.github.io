@@ -4,20 +4,22 @@
   "private": true,
   "homepage": "https://watch-dog-mm.github.io/",
   "dependencies": {
+    "@react-firebase/database": "^0.3.11",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "firebase": "^8.2.5",
+    "gh-pages": "^3.1.0",
     "leaflet": "^1.7.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-leaflet": "^3.1.0",
     "react-scripts": "4.0.2",
-    "web-vitals": "^1.0.1",
-    "gh-pages": "^3.1.0"
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "REACT_APP_API_KEY=AIzaSyBQwB1jInOkU5l5RBBK5P0Q4AahZkffuIE REACT_APP_AUTH_DOMAIN=mmap-live.firebaseapp.com REACT_APP_PROJECT_ID=mmap-live REACT_APP_STORAGE_BUCKET=mmap-live.appspot.com REACT_APP_MESSAGING_SENDER_ID=608858895088 REACT_APP_APP_ID=1:608858895088:web:3b406a50cad16268750835 react-scripts start",
+    "build": "REACT_APP_API_KEY=AIzaSyBQwB1jInOkU5l5RBBK5P0Q4AahZkffuIE REACT_APP_AUTH_DOMAIN=mmap-live.firebaseapp.com REACT_APP_PROJECT_ID=mmap-live REACT_APP_STORAGE_BUCKET=mmap-live.appspot.com REACT_APP_MESSAGING_SENDER_ID=608858895088 REACT_APP_APP_ID=1:608858895088:web:3b406a50cad16268750835 react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
