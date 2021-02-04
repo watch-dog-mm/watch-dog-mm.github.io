@@ -54,23 +54,14 @@ function App() {
             position={[latlng.lat, latlng.lng]}
             message="This is your current location"
           />
-          <FirebaseDatabaseNode
-            path="locations"
-            // orderByKey
-          >
-            {(d) => {
-              console.log(d);
-              return (
-                <>
-                  {!d.isLoading &&
-                    Array.isArray(d.value) &&
-                    d.value.map((item) => {
-                      console.log(item);
-                      return <MapMarker {...item} />;
-                    })}
-                </>
-              );
-            }}
+          <FirebaseDatabaseNode path="locations">
+            {(d) => (
+              <>
+                {!d.isLoading &&
+                  Array.isArray(d.value) &&
+                  d.value.map((item) => <MapMarker key={item.id} {...item} />)}
+              </>
+            )}
           </FirebaseDatabaseNode>
         </MapContainer>
       </FirebaseDatabaseProvider>
