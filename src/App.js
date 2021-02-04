@@ -11,7 +11,7 @@ import {
 } from "@react-firebase/database";
 
 function App() {
-  const [latlng, setlatlng] = useState({ lat: 21.9162, lng: 95.956 });
+  const [latlng, setlatlng] = useState({ lat: 16.8409, lng: 96.1735 });
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(function (position) {
@@ -20,7 +20,7 @@ function App() {
         lng: position.coords.longitude,
       });
     });
-  }, [latlng]);
+  }, []);
 
   return (
     <>
