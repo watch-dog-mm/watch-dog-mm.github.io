@@ -46,7 +46,7 @@ select {
   top: 5px;
   width: calc(100vw / 3);
   position: absolute;
-  z-index: 1000000;
+  z-index: 1001;
   border: 1px solid #ccc;
   height: 34px;
   -webkit-appearance: none;

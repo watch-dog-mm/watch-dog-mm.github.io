@@ -8,13 +8,22 @@ import {
   FirebaseDatabaseNode,
   FirebaseDatabaseProvider,
 } from "@react-firebase/database";
+import Legend from "../../Legend";
 
 function MapView() {
   const [latlng, setlatlng] = useState({ lat: 16.8409, lng: 96.1735 });
+  const [userPositon, setUserPosition] = useState({
+    lat: 16.8409,
+    lng: 96.1735,
+  });
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(function (position) {
       setlatlng({
+        lat: position.coords.latitude,
+        lng: position.coords.longitude,
+      });
+      setUserPosition({
         lat: position.coords.latitude,
         lng: position.coords.longitude,
       });
@@ -50,7 +59,7 @@ function MapView() {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
           <PersonMarker
-            position={[latlng.lat, latlng.lng]}
+            position={[userPositon.lat, userPositon.lng]}
             message="This is your current location"
           />
           <FirebaseDatabaseNode path="locations">
@@ -62,6 +71,7 @@ function MapView() {
               </>
             )}
           </FirebaseDatabaseNode>
+          <Legend></Legend>
         </MapContainer>
       </FirebaseDatabaseProvider>
     </>

@@ -12,7 +12,6 @@
   border-radius: 50%;
   background-color: #ff4343;
 
-  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -51,4 +50,13 @@
     transform: scale(1.6);
     opacity: 0;
   }
+}
+
+.legend-marker {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
+  top: 50%;
+  left: 50%;
 }
