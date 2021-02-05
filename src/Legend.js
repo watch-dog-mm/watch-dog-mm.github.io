@@ -20,6 +20,7 @@ const Legend = () => {
       div.style.borderRadius = "20px";
       div.style.color = "white";
       div.style.fontSize = "15px";
+      div.style.marginBottom = "50px";
 
       let labels = [];
 
