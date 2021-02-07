@@ -1,3 +1,4 @@
+import firebase from "firebase/app";
 export const config = {
   // DO NOT USE THESE CREDENTIALS ! THEY ARE HERE TO HELP IN THE LEARNING PROCESS.
   // ANY AND ALL DATA ON THAT DOMAIN IS SUBJECT TO CHANGE AND REMOVAL AT ANY TIME
@@ -9,3 +10,7 @@ export const config = {
   messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
   appId: process.env.REACT_APP_APP_ID,
 };
+
+firebase.initializeApp(config);
+
+export const database = firebase.database();

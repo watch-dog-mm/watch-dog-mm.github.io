@@ -43,7 +43,7 @@ select {
   padding: 5px 35px 5px 5px;
   font-size: 16px;
   right: 10px;
-  top: 5px;
+  top: 60px;
   width: calc(100vw / 3);
   position: absolute;
   z-index: 1001;
@@ -70,5 +70,9 @@ select::-ms-expand {
 }
 
 .leaflet-top .leaflet-control {
-  margin-top: 41px;
+  margin-top: 100px;
+}
+
+.flex {
+  display: flex;
 }

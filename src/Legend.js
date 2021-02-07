@@ -8,7 +8,7 @@ const Legend = () => {
   const map = useMap();
 
   useEffect(() => {
-    const legend = L.control({ position: "bottomright" });
+    const legend = L.control({ position: "bottomleft" });
 
     legend.onAdd = () => {
       const div = L.DomUtil.create("div", "info legend");
@@ -37,7 +37,7 @@ const Legend = () => {
       labels.push(
         `<div style='display:flex;'><img class='legend-marker' src='${person}' style='width:25px;height:25px;'/><p style="margin:0;line-height: 10px;    line-height: 16px;
         margin-left: 6px;
-            ">သင် လက်ရှိရောက်နေတဲ့ နေရာ</p></div>`
+            ">သင် လက်ရှိ နေရာ</p></div>`
       );
 
       div.innerHTML = labels.join("<br>");

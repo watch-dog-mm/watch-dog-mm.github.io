@@ -18,15 +18,23 @@ const BearerMarker = ({ position, message }) => (
   </Marker>
 );
 
-const MapMarker = ({ type, position, message }) => (
-  <>
-    {type === "pol" && (
-      <PoliceMarker position={[position.lat, position.lng]} message={message} />
-    )}
-    {type === "bearer" && (
-      <BearerMarker position={[position.lat, position.lng]} message={message} />
-    )}
-  </>
-);
+const MapMarker = ({ type, position, message }) => {
+  return (
+    <>
+      {type === "pol" && (
+        <PoliceMarker
+          position={[position.lat, position.lng]}
+          message={message}
+        />
+      )}
+      {type === "bearer" && (
+        <BearerMarker
+          position={[position.lat, position.lng]}
+          message={message}
+        />
+      )}
+    </>
+  );
+};
 
 export default MapMarker;

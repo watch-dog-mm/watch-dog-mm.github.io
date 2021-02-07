@@ -19,7 +19,7 @@ const SideNav = () => {
 
       <div
         style={{
-          fontSize: "30px",
+          fontSize: "20px",
           cursor: "pointer",
           background: "#6f6f6f",
           color: "white",
@@ -31,7 +31,8 @@ const SideNav = () => {
           setToggle("open-nav");
         }}
       >
-        &#9776; Myanmar Map Live
+        &#9776; Myanmar Map Live, Right Click သို့မဟုတ်
+        တင်လိုသောနေရာကိုအကြာကြီးနှိပ်ပြီး report တင်ပါ
       </div>
     </>
   );
