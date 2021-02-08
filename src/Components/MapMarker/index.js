@@ -32,11 +32,11 @@ const PoliceMarker = ({ id, position, message, unitSize, onMarkerClick }) => {
     <Marker
       position={position}
       icon={PoliceIcon}
-      eventHandlers={{
-        click: (e) => {
-          onMarkerClick(e, id);
-        },
-      }}
+      // eventHandlers={{
+      //   click: (e) => {
+      //     onMarkerClick(e, id);
+      //   },
+      // }}
     >
       <Popup>{`${message}\n တပ်ဖွဲ့ အင်အား ${unitSize} ခန့်`}</Popup>
     </Marker>
@@ -46,11 +46,11 @@ const BearerMarker = ({ id, position, message, onMarkerClick }) => (
   <Marker
     position={position}
     icon={BearerIcon}
-    eventHandlers={{
-      click: (e) => {
-        onMarkerClick(e, id);
-      },
-    }}
+    // eventHandlers={{
+    //   click: (e) => {
+    //     onMarkerClick(e, id);
+    //   },
+    // }}
   >
     {message && <Popup>{message}</Popup>}
   </Marker>
@@ -71,11 +71,11 @@ const MilitryMarker = ({ id, position, message, unitSize, onMarkerClick }) => {
     <Marker
       position={position}
       icon={MilitryIcon}
-      eventHandlers={{
-        click: (e) => {
-          onMarkerClick(e, id);
-        },
-      }}
+      // eventHandlers={{
+      //   click: (e) => {
+      //     onMarkerClick && onMarkerClick(e, id);
+      //   },
+      // }}
     >
       <Popup>{`${message}\n တပ်ဖွဲ့ အင်အား ${unitSize} ခန့်`}</Popup>
     </Marker>

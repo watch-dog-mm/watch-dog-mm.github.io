@@ -89,7 +89,7 @@ function MapView() {
           <AddMarkerToClick
             onMapClick={(e) => {
               const password = prompt("Please enter master password:", "");
-              if (password === "88888888") {
+              if (btoa(password) === "ODg4ODg4ODg=") {
                 setSelectedLatLng({ lat: e.lat, lng: e.lng });
 
                 setModelVisible(true);
@@ -117,12 +117,12 @@ function MapView() {
                         <MapMarker
                           key={i}
                           {...d.value[i]}
-                          onMarkerClick={(e, id) => {
-                            database
-                              .ref("locations/" + id)
-                              .child()
-                              .on("value", (snap) => console.log(snap.val()));
-                          }}
+                          // onMarkerClick={(e, id) => {
+                          //   database
+                          //     .ref("locations/" + id)
+                          //     .child()
+                          //     .on("value", (snap) => console.log(snap.val()));
+                          // }}
                         />
                       );
                     })}
