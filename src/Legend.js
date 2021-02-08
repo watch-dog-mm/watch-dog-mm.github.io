@@ -12,7 +12,7 @@ const Legend = () => {
 
     legend.onAdd = () => {
       const div = L.DomUtil.create("div", "info legend");
-      div.style.background = "#383838";
+      div.style.background = "rgb(56, 56, 56,0.7)";
       div.style.width = "200px";
       div.style.padding = "20px 10px";
       div.style.display = "flex";
@@ -25,9 +25,14 @@ const Legend = () => {
       let labels = [];
 
       labels.push(
-        `<div style='display:flex;'><div class='circle' style='width:20px;height:20px;margin-left: 10px;
+        `<div style='display:flex;'><div class='red-circle' style='width:20px;height:20px;margin-left: 10px;
           margin-top: 5px;'></div> <p style="margin:0;line-height: 10px;
-          ">ရဲ/လုံထိမ်း </p></div>`
+          ">စစ်တပ် </p></div>`
+      );
+      labels.push(
+        `<div style='display:flex;'><div class='blue-circle' style='width:20px;height:20px;margin-left: 10px;
+          margin-top: 5px;'></div> <p style="margin:0;line-height: 10px;
+          ">ရဲ/လုံထိန်း </p></div>`
       );
       labels.push(
         `<div style='display:flex;'><img class='legend-marker' src='${bearer}' style='width:25px;height:25px;'/><p style="margin:0;line-height: 10px;    line-height: 16px;

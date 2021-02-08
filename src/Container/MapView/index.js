@@ -16,6 +16,7 @@ import { nanoid } from "nanoid";
 function MapView() {
   const [latlng, setlatlng] = useState({ lat: 16.8409, lng: 96.1735 });
   const [modelVisible, setModelVisible] = useState(false);
+  const [selectedMarkerId, setSelectedMarkerId] = useState("");
 
   const [selectedLatLng, setSelectedLatLng] = useState({
     lat: 16.8409,
@@ -47,6 +48,7 @@ function MapView() {
           database.ref("locations/" + nanoid()).set({
             created_at: Date.now(),
             id: nanoid(),
+            unitSize: e.unitSize,
             message: e.message,
             position: {
               lat: selectedLatLng.lat,
@@ -73,6 +75,9 @@ function MapView() {
             Yangon
           </option>
           <option value="21.9588|96.0891">Mandalay</option>
+          <option value="18.8239172|95.2247068">Pyay</option>
+          <option value="16.9347022|97.3326008">Tha Htone (သထုံ)</option>
+          <option value="16.4537233|97.5891465">MawlaMyine(မော်လမြိုင်)</option>
           <option value="19.7633|96.0785">Naypyi Daw</option>
         </select>
         <MapContainer
@@ -83,9 +88,12 @@ function MapView() {
         >
           <AddMarkerToClick
             onMapClick={(e) => {
-              setSelectedLatLng({ lat: e.lat, lng: e.lng });
+              const password = prompt("Please enter master password:", "");
+              if (password === "88888888") {
+                setSelectedLatLng({ lat: e.lat, lng: e.lng });
 
-              setModelVisible(true);
+                setModelVisible(true);
+              }
             }}
           />
           <ChangeView center={[latlng.lat, latlng.lng]} zoom={13} />
@@ -105,7 +113,18 @@ function MapView() {
                   {!d.isLoading &&
                     d.value &&
                     Object.keys(d.value).map((i) => {
-                      return <MapMarker key={i} {...d.value[i]} />;
+                      return (
+                        <MapMarker
+                          key={i}
+                          {...d.value[i]}
+                          onMarkerClick={(e, id) => {
+                            database
+                              .ref("locations/" + id)
+                              .child()
+                              .on("value", (snap) => console.log(snap.val()));
+                          }}
+                        />
+                      );
                     })}
                 </>
               );

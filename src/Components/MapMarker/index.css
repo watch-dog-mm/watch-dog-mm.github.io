@@ -5,8 +5,8 @@
 
 /* Ripple Effect */
 
-/* Circle */
-.circle {
+/* red-circle */
+.red-circle {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -17,8 +17,8 @@
   transform: translate(-50%, -50%);
 }
 
-.circle:before,
-.circle:after {
+.red-circle:before,
+.red-circle:after {
   content: "";
   display: block;
   position: absolute;
@@ -30,11 +30,44 @@
   border-radius: 50%;
 }
 
-.circle:before {
+.red-circle:before {
   animation: ripple 2s linear infinite;
 }
 
-.circle:after {
+.red-circle:after {
+  animation: ripple 2s linear 1s infinite;
+}
+
+/* red-circle */
+.blue-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #06a1df;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blue-circle:before,
+.blue-circle:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #06a1df;
+  border-radius: 50%;
+}
+
+.blue-circle:before {
+  animation: ripple 2s linear infinite;
+}
+
+.blue-circle:after {
   animation: ripple 2s linear 1s infinite;
 }
 

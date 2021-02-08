@@ -3,6 +3,7 @@ import "./index.css";
 
 const Model = ({ visible, onOkClick, onCancelClick }) => {
   const [objType, setObjType] = useState("pol");
+  const [unitSize, setUnitSize] = useState("20-50");
   const [message, setMessage] = useState("");
 
   return (
@@ -13,16 +14,33 @@ const Model = ({ visible, onOkClick, onCancelClick }) => {
         </span>
         <br />
         <div className="flex">
-          <p>တွေ့ရှိသော အရာ</p>
+          <p>တွေ့ရှိသော &nbsp;အရာ</p>
           <select
             onChange={(e) => {
               setObjType(e.target.value);
             }}
           >
-            <option value="pol" selected>
-              ရဲ / လုံထိန်း
+            <option value="pol">ရဲ / လုံထိန်း</option>
+            <option value="milt" selected>
+              စစ်တပ်
             </option>
             <option value="bearer">အတားအဆီး</option>
+          </select>
+        </div>
+        <div className="flex">
+          <p>တပ်ဖွဲ့ဝင် အင်အား</p>
+          <select
+            onChange={(e) => {
+              setUnitSize(e.target.value);
+            }}
+          >
+            <option value="10-20">၁၀ - ၂၀ခန့် </option>
+            <option value="20-50" selected>
+              ၂၀ - ၅၀ ခန့်
+            </option>
+            <option value="50-100">၅၀ - ၁၀၀ခန့်</option>
+            <option value="100-200">၁၀၀ - ၂၀၀ခန့်</option>
+            <option value="200-above">၂၀၀ နှင့်အထက်</option>
           </select>
         </div>
         <div className="flex">
@@ -36,7 +54,7 @@ const Model = ({ visible, onOkClick, onCancelClick }) => {
         <div className="flex">
           <button
             onClick={() => {
-              onOkClick({ objType, message });
+              onOkClick({ objType, message, unitSize });
             }}
           >
             Report
