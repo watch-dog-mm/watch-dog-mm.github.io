@@ -15,7 +15,7 @@ import { nanoid } from "nanoid";
 import { getCookie, setCookie } from "../../utils/cookie-utils";
 
 function MapView() {
-  const [latlng, setlatlng] = useState({ lat: 1.3521, lng: 103.8198 });
+  const [latlng, setlatlng] = useState({ lat: 16.8409, lng: 96.1735 });
   const [modelVisible, setModelVisible] = useState(false);
   // const [selectedMarkerId, setSelectedMarkerId] = useState("");
 
@@ -77,6 +77,7 @@ function MapView() {
           </option>
           <option value="21.9588|96.0891">Mandalay</option>
           <option value="24.1821769|96.329305">ကသာ(Kathar)</option>
+          <option value="22.1097701|95.1243952">မုံရွာ(Monywa)</option>
           <option value="18.8239172|95.2247068">ပြည်(Pyay)</option>
           <option value="17.3050582|96.4407641">ပဲခူး(Bago)</option>
           <option value="16.9347022|97.3326008">(သထုံ)Tha Htone </option>
@@ -97,7 +98,7 @@ function MapView() {
                 setModelVisible(true);
               } else {
                 const password = prompt("Please enter master password:", "");
-                if (btoa(password) === "ODg4ODg4ODg=") {
+                if (btoa(password) === "djNuZDN0dDQ=") {
                   setSelectedLatLng({ lat: e.lat, lng: e.lng });
 
                   setModelVisible(true);
@@ -138,7 +139,7 @@ function MapView() {
                               const password = prompt(
                                 "Please enter master password:"
                               );
-                              if (btoa(password) === "ODg4ODg4ODg=") {
+                              if (btoa(password) === "djNuZDN0dDQ=") {
                                 const result = window.confirm(
                                   "Want to delete?"
                                 );
