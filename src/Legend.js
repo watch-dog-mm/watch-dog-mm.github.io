@@ -2,6 +2,7 @@ import { useMap } from "react-leaflet";
 import L from "leaflet";
 import bearer from "./icons/bearer.svg";
 import person from "./icons/person.svg";
+import redcross from "./icons/redcross.svg";
 import { useEffect } from "react";
 
 const Legend = () => {
@@ -33,6 +34,11 @@ const Legend = () => {
         `<div style='display:flex;'><div class='blue-circle' style='width:20px;height:20px;margin-left: 10px;
           margin-top: 5px;'></div> <p style="margin:0;line-height: 10px;
           ">ရဲ/လုံထိန်း </p></div>`
+      );
+      labels.push(
+        `<div style='display:flex;'><img class='legend-marker' src='${redcross}' style='width:25px;height:25px;'/><p style="margin:0;line-height: 10px;    line-height: 16px;
+        margin-left: 6px;
+            ">ကယ်ဆယ်ရေး/ဆေးရုံဆေးခန်း</p></div>`
       );
       labels.push(
         `<div style='display:flex;'><img class='legend-marker' src='${bearer}' style='width:25px;height:25px;'/><p style="margin:0;line-height: 10px;    line-height: 16px;
