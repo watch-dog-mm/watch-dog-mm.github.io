@@ -31,8 +31,7 @@ const SideNav = () => {
           setToggle("open-nav");
         }}
       >
-        &#9776; Myanmar Map Live, Right Click သို့မဟုတ်
-        တင်လိုသောနေရာကိုအကြာကြီးနှိပ်ပြီး report တင်ပါ
+        &#9776; Myanmar Map Live
       </div>
     </>
   );

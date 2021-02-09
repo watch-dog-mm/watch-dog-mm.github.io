@@ -8,7 +8,14 @@ export const PersonMarker = ({ position, message }) => (
   </Marker>
 );
 
-const PoliceMarker = ({ id, position, message, unitSize, onMarkerClick }) => {
+const PoliceMarker = ({
+  id,
+  position,
+  message,
+  unitSize,
+  onMarkerClick,
+  fbKey,
+}) => {
   const PoliceIcon = new L.divIcon({
     iconUrl: null,
     iconRetinaUrl: null,
@@ -26,30 +33,37 @@ const PoliceMarker = ({ id, position, message, unitSize, onMarkerClick }) => {
     <Marker
       position={position}
       icon={PoliceIcon}
-      // eventHandlers={{
-      //   click: (e) => {
-      //     onMarkerClick(e, id);
-      //   },
-      // }}
+      eventHandlers={{
+        contextmenu: (e) => {
+          onMarkerClick(e, fbKey, id);
+        },
+      }}
     >
       <Popup>{`${message}\n တပ်ဖွဲ့ အင်အား ${unitSize} ခန့်`}</Popup>
     </Marker>
   );
 };
-const BearerMarker = ({ id, position, message, onMarkerClick }) => (
+const BearerMarker = ({ id, position, message, onMarkerClick, fbKey }) => (
   <Marker
     position={position}
     icon={BearerIcon}
-    // eventHandlers={{
-    //   click: (e) => {
-    //     onMarkerClick(e, id);
-    //   },
-    // }}
+    eventHandlers={{
+      contextmenu: (e) => {
+        onMarkerClick(e, fbKey, id);
+      },
+    }}
   >
     {message && <Popup>{message}</Popup>}
   </Marker>
 );
-const MilitryMarker = ({ id, position, message, unitSize, onMarkerClick }) => {
+const MilitryMarker = ({
+  id,
+  position,
+  message,
+  unitSize,
+  onMarkerClick,
+  fbKey,
+}) => {
   const MilitryIcon = new L.divIcon({
     iconUrl: null,
     iconRetinaUrl: null,
@@ -65,11 +79,11 @@ const MilitryMarker = ({ id, position, message, unitSize, onMarkerClick }) => {
     <Marker
       position={position}
       icon={MilitryIcon}
-      // eventHandlers={{
-      //   click: (e) => {
-      //     onMarkerClick && onMarkerClick(e, id);
-      //   },
-      // }}
+      eventHandlers={{
+        contextmenu: (e) => {
+          onMarkerClick && onMarkerClick(e, fbKey, id);
+        },
+      }}
     >
       <Popup>{`${message}\n တပ်ဖွဲ့ အင်အား ${unitSize} ခန့်`}</Popup>
     </Marker>
@@ -83,6 +97,7 @@ const MapMarker = ({
   message,
   unitSize,
   onMarkerClick,
+  fbKey,
 }) => {
   return (
     <>
@@ -93,6 +108,7 @@ const MapMarker = ({
           unitSize={unitSize}
           onMarkerClick={onMarkerClick}
           id={id}
+          fbKey={fbKey}
         />
       )}
       {type === "bearer" && (
@@ -101,6 +117,7 @@ const MapMarker = ({
           message={message}
           onMarkerClick={onMarkerClick}
           id={id}
+          fbKey={fbKey}
         />
       )}
       {type === "milt" && (
@@ -110,6 +127,7 @@ const MapMarker = ({
           unitSize={unitSize}
           onMarkerClick={onMarkerClick}
           id={id}
+          fbKey={fbKey}
         />
       )}
     </>

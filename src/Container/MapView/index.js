@@ -12,9 +12,10 @@ import Legend from "../../Legend";
 import Model from "../../Components/Modal";
 import { AddMarkerToClick } from "../../MarkerOnclick";
 import { nanoid } from "nanoid";
+import { getCookie, setCookie } from "../../utils/cookie-utils";
 
 function MapView() {
-  const [latlng, setlatlng] = useState({ lat: 16.8409, lng: 96.1735 });
+  const [latlng, setlatlng] = useState({ lat: 1.3521, lng: 103.8198 });
   const [modelVisible, setModelVisible] = useState(false);
   // const [selectedMarkerId, setSelectedMarkerId] = useState("");
 
@@ -75,6 +76,7 @@ function MapView() {
             Yangon
           </option>
           <option value="21.9588|96.0891">Mandalay</option>
+          <option value="24.1821769|96.329305">ကသာ(Kathar)</option>
           <option value="18.8239172|95.2247068">ပြည်(Pyay)</option>
           <option value="17.3050582|96.4407641">ပဲခူး(Bago)</option>
           <option value="16.9347022|97.3326008">(သထုံ)Tha Htone </option>
@@ -89,11 +91,18 @@ function MapView() {
         >
           <AddMarkerToClick
             onMapClick={(e) => {
-              const password = prompt("Please enter master password:", "");
-              if (btoa(password) === "ODg4ODg4ODg=") {
+              if (getCookie("MASTER_LOGIN") === "exists") {
                 setSelectedLatLng({ lat: e.lat, lng: e.lng });
 
                 setModelVisible(true);
+              } else {
+                const password = prompt("Please enter master password:", "");
+                if (btoa(password) === "ODg4ODg4ODg=") {
+                  setSelectedLatLng({ lat: e.lat, lng: e.lng });
+
+                  setModelVisible(true);
+                  setCookie("MASTER_LOGIN", "exists", 1);
+                }
               }
             }}
           />
@@ -118,12 +127,27 @@ function MapView() {
                         <MapMarker
                           key={i}
                           {...d.value[i]}
-                          // onMarkerClick={(e, id) => {
-                          //   database
-                          //     .ref("locations/" + id)
-                          //     .child()
-                          //     .on("value", (snap) => console.log(snap.val()));
-                          // }}
+                          fbKey={i}
+                          onMarkerClick={(e, fbKey, id) => {
+                            if (getCookie("MASTER_LOGIN") === "exists") {
+                              const result = window.confirm("Want to delete?");
+                              if (result) {
+                                database.ref("locations/" + fbKey).remove();
+                              }
+                            } else {
+                              const password = prompt(
+                                "Please enter master password:"
+                              );
+                              if (btoa(password) === "ODg4ODg4ODg=") {
+                                const result = window.confirm(
+                                  "Want to delete?"
+                                );
+                                if (result) {
+                                  database.ref("locations/" + fbKey).remove();
+                                }
+                              }
+                            }
+                          }}
                         />
                       );
                     })}
