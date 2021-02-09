@@ -13,6 +13,7 @@ import Model from "../../Components/Modal";
 import { AddMarkerToClick } from "../../MarkerOnclick";
 import { nanoid } from "nanoid";
 import { getCookie, setCookie } from "../../utils/cookie-utils";
+import { sha256 } from "js-sha256";
 
 function MapView() {
   const [latlng, setlatlng] = useState({ lat: 16.8409, lng: 96.1735 });
@@ -98,7 +99,12 @@ function MapView() {
                 setModelVisible(true);
               } else {
                 const password = prompt("Please enter master password:", "");
-                if (btoa(password) === "djNuZDN0dDQ=") {
+                console.log(sha256(password));
+                if (
+                  password &&
+                  sha256(btoa(password)) ===
+                    "5e6741f47ff196ea8fc4c5729815182a22544b597626edf86de78212a39943be"
+                ) {
                   setSelectedLatLng({ lat: e.lat, lng: e.lng });
 
                   setModelVisible(true);
@@ -139,7 +145,11 @@ function MapView() {
                               const password = prompt(
                                 "Please enter master password:"
                               );
-                              if (btoa(password) === "djNuZDN0dDQ=") {
+                              if (
+                                password &&
+                                sha256(btoa(password)) ===
+                                  "5e6741f47ff196ea8fc4c5729815182a22544b597626edf86de78212a39943be"
+                              ) {
                                 const result = window.confirm(
                                   "Want to delete?"
                                 );
