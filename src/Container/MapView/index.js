@@ -16,7 +16,7 @@ import { nanoid } from "nanoid";
 function MapView() {
   const [latlng, setlatlng] = useState({ lat: 16.8409, lng: 96.1735 });
   const [modelVisible, setModelVisible] = useState(false);
-  const [selectedMarkerId, setSelectedMarkerId] = useState("");
+  // const [selectedMarkerId, setSelectedMarkerId] = useState("");
 
   const [selectedLatLng, setSelectedLatLng] = useState({
     lat: 16.8409,
@@ -75,9 +75,10 @@ function MapView() {
             Yangon
           </option>
           <option value="21.9588|96.0891">Mandalay</option>
-          <option value="18.8239172|95.2247068">Pyay</option>
-          <option value="16.9347022|97.3326008">Tha Htone (သထုံ)</option>
-          <option value="16.4537233|97.5891465">MawlaMyine(မော်လမြိုင်)</option>
+          <option value="18.8239172|95.2247068">ပြည်(Pyay)</option>
+          <option value="17.3050582|96.4407641">ပဲခူး(Bago)</option>
+          <option value="16.9347022|97.3326008">(သထုံ)Tha Htone </option>
+          <option value="16.4537233|97.5891465">(မော်လမြိုင်)MawlaMyine</option>
           <option value="19.7633|96.0785">Naypyi Daw</option>
         </select>
         <MapContainer
