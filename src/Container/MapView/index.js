@@ -84,6 +84,7 @@ function MapView() {
           <option value="16.9347022|97.3326008">(သထုံ)Tha Htone </option>
           <option value="16.4537233|97.5891465">(မော်လမြိုင်)MawlaMyine</option>
           <option value="19.7633|96.0785">Naypyi Daw</option>
+          <option value="14.0828|98.1940">ထားဝယ်(Dawei)</option>
         </select>
         <MapContainer
           style={{ height: `100vh` }}
