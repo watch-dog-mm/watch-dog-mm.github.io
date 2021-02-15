@@ -1,0 +1,1467 @@
+{
+  "locations": {
+    "-9omXgjdkJYXoqj_4IZkW": {
+      "created_at": 1612882285417,
+      "id": "bxUX-UfpCGbs9FAEM41rV",
+      "message": "ရန်ကုန်ဆေးရုံကြီး မှာအရေးပေါ်အတွက်ဖွင့်ပေးထားပါတယ်",
+      "position": {
+        "lat": 16.778842100122716,
+        "lng": 96.14798784255983
+      },
+      "type": "resc",
+      "unitSize": "20-50"
+    },
+    "-PskKGBIsGXO2cRz73Ftv": {
+      "created_at": 1612956961894,
+      "id": "EFV7mf9-OUUA8JiyHVOL-",
+      "message": "ရဲ/လုံထိန်းတွေ ချထားပါတယ်",
+      "position": {
+        "lat": 19.75060442748781,
+        "lng": 96.10232117333203
+      },
+      "type": "pol",
+      "unitSize": "10-20"
+    },
+    "0anbnQANDo0wz1cKySOST": {
+      "created_at": 1612941420124,
+      "id": "l0VTAmbtKYFxi-7J2oS51",
+      "message": "",
+      "position": {
+        "lat": 21.976933888242137,
+        "lng": 96.08602871862563
+      },
+      "type": "milt",
+      "unitSize": "20-50"
+    },
+    "0fSRBccGDfoGLdAQJJE2W": {
+      "created_at": 1612940278445,
+      "id": "c6uXurX4Rvt53FfDcMWjd",
+      "message": "သုခသီတာလမ်းနဲ့ ရန်မျိုးသန့်စင် လမ်းထောင့်မှာ ရဲနဲ့ လုံထိန်းတွေရှိနေကြပါတယ်",
+      "position": {
+        "lat": 19.760877669118695,
+        "lng": 96.0866403579712
+      },
+      "type": "pol",
+      "unitSize": "10-20"
+    },
+    "0iVd2_pdS6v2hpJlCkaZt": {
+      "created_at": 1612749286639,
+      "id": "B6ZMajxaqm4eAJCSBkaGa",
+      "message": "",
+      "position": {
+        "lat": 21.98059701944151,
+        "lng": 96.10364991935442
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "1BuhJkEQ896Fic_V920qd": {
+      "created_at": 1612880526185,
+      "id": "iwTF-CE1h5LrVPmSFSe0L",
+      "message": "ဂိတ်စောင့် တပ်သား ၃ ၄ ဦးရှိ",
+      "position": {
+        "lat": 21.954310377799494,
+        "lng": 96.07871467769496
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "1BwnErYX5b8fQgxR2jxac": {
+      "created_at": 1612754166924,
+      "id": "iLlfViZPCXr0Am4aJy6wt",
+      "message": "Police",
+      "position": {
+        "lat": 22.00302244490298,
+        "lng": 96.08549529489804
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "1P2VKS2dz86iINPqicJXk": {
+      "created_at": 1612939502868,
+      "id": "gKSCKg-nOboOcrLu8xKxn",
+      "message": "လွှတ်တော်ရှေ့ ရာဇဌာနီ လမ်းမပေါ် မှာ ရဲလုံထိန်းတွေနဲ့ တင့်ကား ၅စီး၆စီးလောက်ပိတ်ဆို့ထားပါတယ် ",
+      "position": {
+        "lat": 19.78285739839342,
+        "lng": 96.10899925231935
+      },
+      "type": "bearer",
+      "unitSize": "50-100"
+    },
+    "1RvZmdUIrGVyOWE1Crmcv": {
+      "created_at": 1612735398906,
+      "id": "vbIXy-OkzqZV75KzkPxgE",
+      "message": "",
+      "position": {
+        "lat": 21.981478632033337,
+        "lng": 96.08883943981898
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "2OY19aERH6CrqIAbL5x8j": {
+      "created_at": 1612749448117,
+      "id": "bSvqTfL756xV10nHGSbYg",
+      "message": "",
+      "position": {
+        "lat": 21.993159749489305,
+        "lng": 96.08491738773635
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "3zjpP2ZoyEh9cw-tqSY7B": {
+      "created_at": 1612754195191,
+      "id": "LEQqoi1sg0fZacjOagWdO",
+      "message": "Police",
+      "position": {
+        "lat": 22.00376976615978,
+        "lng": 96.08599092068182
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "4B0uT51mJC_478cRwKdEV": {
+      "created_at": 1612749332414,
+      "id": "OmV73RM0tulU8MR1rh2QC",
+      "message": "",
+      "position": {
+        "lat": 21.981555404994403,
+        "lng": 96.0871589863853
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "4SVGIRCR3v9quIewSfqMW": {
+      "created_at": 1612922411623,
+      "id": "Db6W4TSErZWr-KVsoWSVo",
+      "message": "ဗိုလ်ချုပ်ကြေးရုပ်နားမှာ အတားအဆီးတွေချ ထားပါတယ်",
+      "position": {
+        "lat": 22.116331208349113,
+        "lng": 95.13204216957094
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "4VkB3MwXMYV_n25NWDY-7": {
+      "created_at": 1612882369987,
+      "id": "qq9imQbjlMdSWP-D17jgl",
+      "message": "Fever Clinic တာမွေ",
+      "position": {
+        "lat": 16.803431839901673,
+        "lng": 96.17329180240633
+      },
+      "type": "resc",
+      "unitSize": "20-50"
+    },
+    "52B7MyfkodkfSQ60zDSrB": {
+      "created_at": 1612923666994,
+      "id": "H1ZGGrrr47X3vCrQ7PAGC",
+      "message": "စစ်ကား၊ ရဲကား၊ ရေကား အသင့်အနေအထားရှိသည်",
+      "position": {
+        "lat": 21.96406305941119,
+        "lng": 96.09313346292693
+      },
+      "type": "milt",
+      "unitSize": "50-100"
+    },
+    "58sFV1uQgixMnRkrHKQsk": {
+      "created_at": 1612754108273,
+      "id": "rqiY6LCyXgElQKLfg38bF",
+      "message": "Police",
+      "position": {
+        "lat": 21.995076017631405,
+        "lng": 96.08497448361014
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "5E7X2P-i1SpZvTvW8mMJS": {
+      "created_at": 1612735433486,
+      "id": "oJ41qDcv8YBcf8I9K18zK",
+      "message": "",
+      "position": {
+        "lat": 21.981339814585823,
+        "lng": 96.09082974513504
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "5hdNi4RMt71iPOvAHK0Bw": {
+      "created_at": 1612929367987,
+      "id": "ItBhADJzLm43FCD10tuQ1",
+      "message": "ရဲဝတ်လဲထားသော စစ်သားတွေပါ၊ သတိရှိကြပါ၊ ရှောင်ကြပါ။",
+      "position": {
+        "lat": 21.964472383517347,
+        "lng": 96.08662251769184
+      },
+      "type": "milt",
+      "unitSize": "20-50"
+    },
+    "5qF8Pj5vQVU-uUy-Sw_-T": {
+      "created_at": 1612929389828,
+      "id": "of213lFmClNvt0801tYJN",
+      "message": "ရဲဝတ်လဲထားသော စစ်သားတွေပါ၊ သတိရှိကြပါ၊ ရှောင်ကြပါ။",
+      "position": {
+        "lat": 21.96429817702234,
+        "lng": 96.08916821667961
+      },
+      "type": "milt",
+      "unitSize": "20-50"
+    },
+    "62U9KB785n26SiJKSS8cN": {
+      "created_at": 1612749421970,
+      "id": "sXbP2j1d2wr2FMW1Ois9t",
+      "message": "",
+      "position": {
+        "lat": 21.985794888117,
+        "lng": 96.08447044196181
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "6kX7N7EEg0Lzhmmidv8fh": {
+      "created_at": 1612941275145,
+      "id": "TVLYp2NBNWvoMmZGoTBLo",
+      "message": "စစ်သား ၅၀ ခန့်နဲ့ မဟာဇေယျလမ်း မှာ စစ်တပ်ရော တင့်ကားနဲ့ ပိတ်ဆို့ထားပါ",
+      "position": {
+        "lat": 19.77292297653164,
+        "lng": 96.08794927597047
+      },
+      "type": "milt",
+      "unitSize": "20-50"
+    },
+    "7GZH0rB2bOxsmqg3-BOvH": {
+      "created_at": 1612939906245,
+      "id": "GUDa1-N5iJjm4esEnOv07",
+      "message": "ရဲ/လုံထိန်းတွေ အဝိုင်းထိပ်ကနေ လွှတ်တော်လမ်းမတလ​ျှောက်ပိတ်ထားတာပါ",
+      "position": {
+        "lat": 19.775894120947783,
+        "lng": 96.13192026084121
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "7mVVO2iyYlr0w4axxSahD": {
+      "created_at": 1612754063746,
+      "id": "t528kwUVo4lbx0HP5GM6y",
+      "message": "Police",
+      "position": {
+        "lat": 21.98198643463657,
+        "lng": 96.10652065794692
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "8YeIdEpZryBpPbj1g6eCb": {
+      "created_at": 1612798938432,
+      "id": "kcK6DvRUhaBAEd2ZLAkaV",
+      "message": "",
+      "position": {
+        "lat": 21.997019396355405,
+        "lng": 96.10778327418265
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "9t2YIcsEBIuRNhKNuPAQ-": {
+      "created_at": 1612749232473,
+      "id": "kevOGpqHhVoHUrXpJ4t2F",
+      "message": "",
+      "position": {
+        "lat": 21.980827939255157,
+        "lng": 96.10077286949306
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "A60buWUNhgLKXYVug3sER": {
+      "created_at": 1612941107878,
+      "id": "P13w5squXjaKbfGKiUeqA",
+      "message": "သုခသီတာလမ်းနဲ့ အေးချမ်းရွှေပြည် လမ်းကြားမှာ ရဲနဲ့ လုံထိန်းတွေရှိနေကြပါတယ်",
+      "position": {
+        "lat": 19.77264028066811,
+        "lng": 96.08609318733215
+      },
+      "type": "pol",
+      "unitSize": "20-50"
+    },
+    "B1bEGaJ_KqU9KnAPCccKQ": {
+      "created_at": 1612750588064,
+      "id": "nGEJ9Oa8Enn39ErdkmWOJ",
+      "message": "",
+      "position": {
+        "lat": 21.978625942017437,
+        "lng": 96.1097095024829
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "BMKBvX9e6JcHOzJLJtFPh": {
+      "created_at": 1612764348766,
+      "id": "rNPb4eAk1FncLLAycMbAP",
+      "message": "ဆူးလေ central point AGD tower ပေါ်မှာ Sniper တွေ နဲ့ စစ်သားတချို့ရှိနေပါတယ်",
+      "position": {
+        "lat": 16.77309992716421,
+        "lng": 96.15841627120973
+      },
+      "type": "milt",
+      "unitSize": "10-20"
+    },
+    "BR7dXXPMXSB9uKxNzQc0T": {
+      "created_at": 1612798996329,
+      "id": "j8nswFIM3emYSRc84HvFe",
+      "message": "",
+      "position": {
+        "lat": 22.00349621607111,
+        "lng": 96.09640103504499
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "BRga7jxL4Kpf6hyuiDB0Z": {
+      "created_at": 1612757956530,
+      "id": "2W3kbhXtmc_gOmGIfvfiN",
+      "message": "ရဲ အင်အား ၅၀ မှ ၁၀၀ထိရှိနေပါတယ်",
+      "position": {
+        "lat": 16.77479486209408,
+        "lng": 96.15970373153687
+      },
+      "type": "pol",
+      "unitSize": "50-100"
+    },
+    "BVTJBnJWqOuSLi6jVenpi": {
+      "created_at": 1612880989074,
+      "id": "5kg87YZXhCes-4XbhTFhu",
+      "message": "ဂိတ်စောင့်တပ်သား ၃ ၄ ဦးရှိ",
+      "position": {
+        "lat": 21.950667332089093,
+        "lng": 96.0797183415279
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "Bt-s5Ypn8pYxCnOaKJaQ0": {
+      "created_at": 1612756711325,
+      "id": "E0dQwGJCn7H6mp9IJuLU5",
+      "message": "မြို့တော်ခန်းမ နားမှာ အတားအဆီး နဲ့ ရေဖြန်းကားတွေ ရှိနေပါတယ်",
+      "position": {
+        "lat": 16.77434288092386,
+        "lng": 96.16011142730714
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "BztW0lhqgA6TmTkNb68cq": {
+      "created_at": 1612749254323,
+      "id": "EZUr-LAq48nk3Qa3W4QjP",
+      "message": "",
+      "position": {
+        "lat": 21.980714595995256,
+        "lng": 96.10203809069064
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "CGe7OOPpZ3f-7zNEKl2D8": {
+      "created_at": 1612882638870,
+      "id": "-bBP7gG3izikPGhXe7Lv_",
+      "message": "ကယ်ဆယ်ရေး ပရဟိတာယဥ်များ",
+      "position": {
+        "lat": 16.77164124379169,
+        "lng": 96.16173148155212
+      },
+      "type": "resc",
+      "unitSize": "20-50"
+    },
+    "Cdsah2Zxv6eEVfjkAvosn": {
+      "created_at": 1612754099362,
+      "id": "s5pExQE4YAV4UyWAXJjBD",
+      "message": "Police",
+      "position": {
+        "lat": 21.99265143291347,
+        "lng": 96.1074900940677
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "DHQ25YbL2Xp9L5VxO_DMt": {
+      "created_at": 1612880961583,
+      "id": "I5TWH9ukppoH6v5-RPCK3",
+      "message": "ဂိတ်စောင့်တပ်သား ၃ ၄ ဦးရှိ",
+      "position": {
+        "lat": 21.954307515106013,
+        "lng": 96.07641445549228
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "Dw6gbrV7L3A5ChYP8aEyc": {
+      "created_at": 1612798946463,
+      "id": "6lM_JSVCPxFYtGj2zxMfz",
+      "message": "",
+      "position": {
+        "lat": 21.998409306304477,
+        "lng": 96.10782764925399
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "EesEbTomrpfeHlWQrrtvW": {
+      "created_at": 1612937285785,
+      "id": "LzLLUHJdDEJGz7MTwRsGZ",
+      "message": "ဘေလီတံတားနားမှာ ရဲကား နဲ့ စောင့်ကြပ်နေပါတယ်",
+      "position": {
+        "lat": 16.865580154385228,
+        "lng": 96.18197679519653
+      },
+      "type": "pol",
+      "unitSize": "10-20"
+    },
+    "FkhhY_6F9TkZS2qPePYig": {
+      "created_at": 1612938898899,
+      "id": "N0SnXo6B8dAFcN47uO4tx",
+      "message": "",
+      "position": {
+        "lat": 19.743570432692962,
+        "lng": 96.11399374133995
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "FlvsF4tUR_SlPuVQy5j6F": {
+      "created_at": 1612854598174,
+      "id": "7nmdAOjC8QgfDVWp673vx",
+      "message": "",
+      "position": {
+        "lat": 16.82614935203076,
+        "lng": 96.13178730010986
+      },
+      "type": "pol",
+      "unitSize": "100-200"
+    },
+    "G6echPDVGAWKcfmiQThl_": {
+      "created_at": 1612798985844,
+      "id": "EDjsW8UbwzaOVKnTY06xV",
+      "message": "",
+      "position": {
+        "lat": 22.002181973621287,
+        "lng": 96.10803277110747
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "GDkTL9xYiiJ78EXaYTWXx": {
+      "created_at": 1612924812104,
+      "id": "X5I_znWdBIi9H-cWRxlB9",
+      "message": "",
+      "position": {
+        "lat": 17.336751531294833,
+        "lng": 96.48800611495973
+      },
+      "type": "pol",
+      "unitSize": "20-50"
+    },
+    "GYdxvmuOb7ZIhoV-2tiYr": {
+      "created_at": 1612922495660,
+      "id": "WdGkwL2MY8yjTy5OFeqCO",
+      "message": "ဗိုလ်ချုပ်ကြေးရုပ်နားမှာ အတားအဆီးတွေချ ထားပါတယ်",
+      "position": {
+        "lat": 22.11667411802073,
+        "lng": 95.1323962211609
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "H0zclte8esAPyLA_Lh7T1": {
+      "created_at": 1612924378775,
+      "id": "X4sUTbFYJlMByi6nwDdRv",
+      "message": "",
+      "position": {
+        "lat": 17.336490374809877,
+        "lng": 96.48546338081361
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "InrNg3WIPox1JJIk02FQW": {
+      "created_at": 1612924401965,
+      "id": "MmruUNOHyI2Roxz-jS5fE",
+      "message": "",
+      "position": {
+        "lat": 17.336695203456955,
+        "lng": 96.48767888545991
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "JDVRhLVlYy8O1VEL8Qwy3": {
+      "created_at": 1612930943525,
+      "id": "dY7Svj_K5yc-HBJ1SYU0T",
+      "message": "မင်းရန်အောင် ဂေါက်ကွင်းနား မှာ စစ်တပ်က လုံးဝပိတ်ထားပါတယ်\n",
+      "position": {
+        "lat": 17.34580472634527,
+        "lng": 96.50285482406618
+      },
+      "type": "milt",
+      "unitSize": "20-50"
+    },
+    "JQ-9TMnSqf50hWWiz5VYj": {
+      "created_at": 1612798972376,
+      "id": "B62TXc0Z8TaEGuXcl4gSY",
+      "message": "",
+      "position": {
+        "lat": 22.000479094791334,
+        "lng": 96.1079242090871
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "JUznvH2w1gGnwQPk1VvR7": {
+      "created_at": 1612922457328,
+      "id": "sgQ5Tl0ldoxvMiRWWkSF0",
+      "message": "ဗိုလ်ချုပ်ကြေးရုပ်နားမှာ အတားအဆီးတွေချ ထားပါတယ်",
+      "position": {
+        "lat": 22.11688781493048,
+        "lng": 95.1318919658661
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "Jj37pHGJQhv1J5iULhWjH": {
+      "created_at": 1612930879073,
+      "id": "JLbyHGiIIr9w1k8oY6PTK",
+      "message": "စစ်တပ်က လုံးဝပိတ်ထားပါတယ်\nတပ်ထဲကလူတွေလဲ အပြင်ထွက်ရတဲ့ပုံမပေါ်ပါဘူး",
+      "position": {
+        "lat": 17.34364387987697,
+        "lng": 96.50065541267395
+      },
+      "type": "milt",
+      "unitSize": "20-50"
+    },
+    "KCFs3mFdh36U2KdJlhVbr": {
+      "created_at": 1612798880442,
+      "id": "N274ijDGpN9kfmCiIuojg",
+      "message": "",
+      "position": {
+        "lat": 21.98604161393321,
+        "lng": 96.10707814057946
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "Ken4npO_5zPA5DPAW8Xco": {
+      "created_at": 1612931797128,
+      "id": "cHF5asD6Uf8H7t4nN_WV3",
+      "message": "Base-2 Medical Cover Team (MDY)ပါ",
+      "position": {
+        "lat": 22.00795490057283,
+        "lng": 96.09288454055788
+      },
+      "type": "resc",
+      "unitSize": "20-50"
+    },
+    "KsCIndWwYJnTBmCostPM8": {
+      "created_at": 1612931815563,
+      "id": "zDEGctJN76faMFPKpzeyR",
+      "message": "",
+      "position": {
+        "lat": 17.26135919603999,
+        "lng": 96.47176265716554
+      },
+      "type": "pol",
+      "unitSize": "20-50"
+    },
+    "MIS3ccz9vCN1eYylB2UYH": {
+      "created_at": 1612923726350,
+      "id": "E_pnTPKe7C8IWACvaOMrE",
+      "message": "စစ်ကား၊ ရဲကား၊ ရေကား အသင့်အနေအထားရှိသည်",
+      "position": {
+        "lat": 21.964064495664623,
+        "lng": 96.09409306229514
+      },
+      "type": "milt",
+      "unitSize": "20-50"
+    },
+    "MN0PC9-hG3iO89GzQMzAf": {
+      "created_at": 1612735542321,
+      "id": "kzX9jHD-khHLnDtZhGdz6",
+      "message": "",
+      "position": {
+        "lat": 21.980957858680604,
+        "lng": 96.09873480658393
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "MZknGNo5sOs-_pwEFgxsG": {
+      "created_at": 1612766484348,
+      "id": "fS2vo4c-WngmIXGgmYn1e",
+      "message": "တက္ကသိုလ် ဓမ္မရုံဝင်းထဲ",
+      "position": {
+        "lat": 16.825423638560476,
+        "lng": 96.13301038742067
+      },
+      "type": "pol",
+      "unitSize": "10-20"
+    },
+    "NEBASXUAq42EfPves9OMW": {
+      "created_at": 1612798926139,
+      "id": "5LQyibVH5xCPi3CjzTaOK",
+      "message": "",
+      "position": {
+        "lat": 21.994167926090118,
+        "lng": 96.10757898464895
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "NErDa6xTi3Rwur-T6vcjU": {
+      "created_at": 1612799005144,
+      "id": "Ui_zMbE6_BjE_iMeILHyS",
+      "message": "",
+      "position": {
+        "lat": 22.003744838067355,
+        "lng": 96.0915019901948
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "NNAceI2-qMnI-SNA2N-lp": {
+      "created_at": 1612863122827,
+      "id": "_wmzQn6lbzYEQZmyFtLvL",
+      "message": "",
+      "position": {
+        "lat": 21.98449238351394,
+        "lng": 96.11011972095633
+      },
+      "type": "pol",
+      "unitSize": "20-50"
+    },
+    "Ns4qCzv-kTHvjaknx83tM": {
+      "created_at": 1612764547755,
+      "id": "BMUdJvuBJtbnJphoWK3uG",
+      "message": "ဘားလမ်းထိပ်က Pdc towerထိပ်မှာ စစ်သားတချို့ sniper နဲ့ စောင့်နေကြပါတယ်",
+      "position": {
+        "lat": 16.771600153957156,
+        "lng": 96.16040110588074
+      },
+      "type": "milt",
+      "unitSize": "10-20"
+    },
+    "P4aokjEOSg-4heCeoXGCi": {
+      "created_at": 1612750573224,
+      "id": "iFDeCPQUPMIPVme_hVAWU",
+      "message": "",
+      "position": {
+        "lat": 21.9787267524724,
+        "lng": 96.10814992415683
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "POj948dkwckV6z3tR_0tr": {
+      "created_at": 1612923666072,
+      "id": "aLtVKSLv5hxZhBd2ppe-r",
+      "message": "",
+      "position": {
+        "lat": 17.250846888840364,
+        "lng": 96.46792173385622
+      },
+      "type": "milt",
+      "unitSize": "20-50"
+    },
+    "PPSJyJ00nVb0Q4ap9bX1K": {
+      "created_at": 1612939542661,
+      "id": "tKFtAu9HTULVUKEzfTHfV",
+      "message": "လွှတ်တော်ရှေ့ ရာဇဌာနီ လမ်းမပေါ် မှာ ရဲလုံထိန်းတွေနဲ့ တင့်ကား ၅စီး၆စီးလောက်ပိတ်ဆို့ထားပါတယ် ",
+      "position": {
+        "lat": 19.78156515092188,
+        "lng": 96.11037254333498
+      },
+      "type": "milt",
+      "unitSize": "200-above"
+    },
+    "Q1S5qeHCeQKU2_8smbKSz": {
+      "created_at": 1612934195440,
+      "id": "S0kELGtocEtqKce8KatrZ",
+      "message": "မဟာဗန္ဓုလလမ်း(ဘားလမ်း) ကုန်သည်ထိပ်တွင်အတားအဆီးများချထားပါသည်",
+      "position": {
+        "lat": 16.77187237394555,
+        "lng": 96.16014361381532
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "QmiIIg7yUGvgbyK_BldVo": {
+      "created_at": 1612754080405,
+      "id": "0ka6Q2X6LniaGuO1m2_iY",
+      "message": "Police",
+      "position": {
+        "lat": 21.98196739457868,
+        "lng": 96.10669367549781
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "QxtwOGQ8Uu_XX4URp07Ad": {
+      "created_at": 1612763614620,
+      "id": "kadMcHg0pt2mfGOeTKXH8",
+      "message": "စစ်သားတွေ အပေါ်မှာ Sniper နဲ့နေရာယူထားကြပါတယ်",
+      "position": {
+        "lat": 16.774805134380895,
+        "lng": 96.16005241870882
+      },
+      "type": "pol",
+      "unitSize": "10-20"
+    },
+    "R2M6fgiA-iXVcJth7whT9": {
+      "created_at": 1612878658511,
+      "id": "g5GqwvJ6nqkdGjJfxy5L6",
+      "message": "စစ်ရော ရဲရော ဘူတာကြီးနှင့် Hotel Marvel တွင် စခန်းချသည် ",
+      "position": {
+        "lat": 21.976758557220254,
+        "lng": 96.08602843219484
+      },
+      "type": "pol",
+      "unitSize": "50-100"
+    },
+    "SHLqldQnA2n55mCkHZ870": {
+      "created_at": 1612923446039,
+      "id": "PJc8tLeyGIQfGtZude3jB",
+      "message": "ပထမစည်း ၊ ဒုတိယစည်း၊ တတိယစည်း ပြင်ထားသည်။",
+      "position": {
+        "lat": 21.964492489843316,
+        "lng": 96.08633360729486
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "SL0DUe_v-EGVKJmzzVobO": {
+      "created_at": 1612929427040,
+      "id": "ET8hpW-wu5Hod-hYkziPZ",
+      "message": "ရဲဝတ်လဲထားသော စစ်သားတွေပါ၊ သတိရှိကြပါ၊ ရှောင်ကြပါ။",
+      "position": {
+        "lat": 21.964406059995795,
+        "lng": 96.09114204370103
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "SLOd9kpueaWq0FCjZPDIV": {
+      "created_at": 1612842249803,
+      "id": "_kdWWT1wv1zQFxiTgaS_T",
+      "message": "YU ရှေ့ ရေကား/အကာတွေ နဲ့ ရဲ တွေရောက်နေပါတယ်",
+      "position": {
+        "lat": 16.825872075122255,
+        "lng": 96.13819241523744
+      },
+      "type": "pol",
+      "unitSize": "100-200"
+    },
+    "TJzVc5zdt-btSpLOclO8n": {
+      "created_at": 1612749407004,
+      "id": "ba8zvq7b1R0yN-ZmEtU8u",
+      "message": "",
+      "position": {
+        "lat": 21.984284812619013,
+        "lng": 96.08437370985476
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "TtQOXxyjS8ZYyIGV4tKhk": {
+      "created_at": 1612754051675,
+      "id": "lVfucSGU4t-DX9fRSWKwo",
+      "message": "Police",
+      "position": {
+        "lat": 21.981907462656476,
+        "lng": 96.10645696774736
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "U1mRrLOFsm1JhW9qRizZV": {
+      "created_at": 1612938780208,
+      "id": "qTnw4Qq8n4Hbl1pt9iJf9",
+      "message": "ရဲ/လုံထိန်းတွေလမ်းပိတ်ထားပါတယ် သပြေကုန်းအဝိုင်းကိုပိတ်ထားတာပါ",
+      "position": {
+        "lat": 19.743816139134516,
+        "lng": 96.11406024585428
+      },
+      "type": "pol",
+      "unitSize": "10-20"
+    },
+    "UPoViHe_fEgLNR9y5hAAS": {
+      "created_at": 1612929383851,
+      "id": "vnPCM9cGG76cYo0fSczfK",
+      "message": "ရဲဝတ်လဲထားသော စစ်သားတွေပါ၊ သတိရှိကြပါ၊ ရှောင်ကြပါ။",
+      "position": {
+        "lat": 21.964177813816004,
+        "lng": 96.09155791575306
+      },
+      "type": "milt",
+      "unitSize": "20-50"
+    },
+    "VvIigTaxn_2HEahIwEu6Q": {
+      "created_at": 1612749369447,
+      "id": "-v3tAa1-YNVD0OqgWO4If",
+      "message": "",
+      "position": {
+        "lat": 21.983146071646566,
+        "lng": 96.08428446280581
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "WCWuA_hxW6yolup3gL4-0": {
+      "created_at": 1612880482581,
+      "id": "qh-3etkwqmvbLZm3o-H0u",
+      "message": "ဂိတ်စောင့် တပ်သား ၃ ၄ ဦးရှိ",
+      "position": {
+        "lat": 21.954329418432184,
+        "lng": 96.08108656208955
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "WCZ64s1rn67H7db-FGKHc": {
+      "created_at": 1612924848536,
+      "id": "K5k0ob7Curzt_99n-LiMR",
+      "message": "",
+      "position": {
+        "lat": 17.33883052848951,
+        "lng": 96.48837089538574
+      },
+      "type": "pol",
+      "unitSize": "20-50"
+    },
+    "WEYjcPOgfg-at39cZ02Mz": {
+      "created_at": 1612754309300,
+      "id": "JErUMRt5nYJaojTSjbCNw",
+      "message": "Police",
+      "position": {
+        "lat": 21.983029578837503,
+        "lng": 96.10687558577617
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "WGV-qm2tXmWPlS8lopFjc": {
+      "created_at": 1612749434641,
+      "id": "Nos4Hzk4dYzPYJIoOauzC",
+      "message": "",
+      "position": {
+        "lat": 21.98849615299304,
+        "lng": 96.08458574311763
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "X9rA3qtz2HdsXqfKYyfN1": {
+      "created_at": 1612754146658,
+      "id": "4CvNxPAVARcUKAHI8ZP4e",
+      "message": "Police",
+      "position": {
+        "lat": 22.002113726944412,
+        "lng": 96.08544572259242
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "XW8Jd_2uM4fRLPEWXOR9V": {
+      "created_at": 1612938846367,
+      "id": "mTNMu_SksC0rpVphT8aFo",
+      "message": "ရဲ/လုံထိန်းတွေလမ်းပိတ်ထားပါတယ် သပြေကုန်းအဝိုင်းကိုပိတ်ထားတာပါ",
+      "position": {
+        "lat": 19.74886348487065,
+        "lng": 96.10807521865736
+      },
+      "type": "pol",
+      "unitSize": "10-20"
+    },
+    "YP8eSgkyCYQbUK78M1Xnz": {
+      "created_at": 1612938877896,
+      "id": "3uOH6NcUSLFBCguhNTIQJ",
+      "message": "",
+      "position": {
+        "lat": 19.748876078081828,
+        "lng": 96.10793884593929
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "YWbtSLtTV9TvcFPKybmkf": {
+      "created_at": 1612937595179,
+      "id": "wX3OjiuMFyNHpzXM97dvc",
+      "message": "ရဲတွေအဆင်သင့်စောင့်နေပါတယ် ဆန္ဒပြသူတွေလာရင်အတားအစီးနဲ့လမ်းပိတ်မှာပါ",
+      "position": {
+        "lat": 19.672437344183066,
+        "lng": 96.12303101225581
+      },
+      "type": "pol",
+      "unitSize": "20-50"
+    },
+    "YuDVmQyLXmjCDohkQR_Lw": {
+      "created_at": 1612929420028,
+      "id": "ywGJWxXEQJUarStlia-SI",
+      "message": "ရဲဝတ်လဲထားသော စစ်သားတွေပါ၊ သတိရှိကြပါ၊ ရှောင်ကြပါ။",
+      "position": {
+        "lat": 21.964401489645294,
+        "lng": 96.0897775881913
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "ZRjAC6n6gIS8pn0-jCvNe": {
+      "created_at": 1612798898061,
+      "id": "0eHghldKXiZ6Fd2Gksfy0",
+      "message": "",
+      "position": {
+        "lat": 21.984579991795147,
+        "lng": 96.10693275884802
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "ZwlSNXbjEpD1Vp6UZ8zUG": {
+      "created_at": 1612750627558,
+      "id": "D9oQqs-A2NZ4FQEAbSXvP",
+      "message": "",
+      "position": {
+        "lat": 21.97869231298919,
+        "lng": 96.10888820347554
+      },
+      "type": "pol",
+      "unitSize": "10-20"
+    },
+    "_tqTD4u1kDxCJM3ltpE-s": {
+      "created_at": 1612763921479,
+      "id": "j2Cf7UOd7OK9t4Ec_30Uy",
+      "message": "တရားရုံးချုပ် အပေါ်မှာ လဲ sniper နဲ့ စစ်သားတချို့နေရာယူထားပါတယ်",
+      "position": {
+        "lat": 16.77292529664601,
+        "lng": 96.16058349609376
+      },
+      "type": "milt",
+      "unitSize": "10-20"
+    },
+    "aBZZeZjFouDZEKHups22Z": {
+      "created_at": 1612939667620,
+      "id": "PPWTBPZWv_2880-gWtOaP",
+      "message": "ရဲ/လုံထိန်းတွေလမ်းပိတ်ထားပါတယ် သပြေကုန်းအဝိုင်းကိုပိတ်ထားတာပါ",
+      "position": {
+        "lat": 19.747090474073367,
+        "lng": 96.11652776993989
+      },
+      "type": "pol",
+      "unitSize": "20-50"
+    },
+    "cZmwVdZzDxVQHjuB9aQAC": {
+      "created_at": 1612929434879,
+      "id": "ZwyK2KkeqnZXWu7pjx-B-",
+      "message": "ရဲဝတ်လဲထားသော စစ်သားတွေပါ၊ သတိရှိကြပါ၊ ရှောင်ကြပါ။",
+      "position": {
+        "lat": 21.964308919581963,
+        "lng": 96.09255799491437
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "e7EIah3sM0Pmr4DeIGBPl": {
+      "created_at": 1612799015465,
+      "id": "0VyzBcYrWNC3iOPlmdOJ1",
+      "message": "",
+      "position": {
+        "lat": 22.002898087002738,
+        "lng": 96.10494686070447
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "eChBmTHSuLBfK5g1hVGGH": {
+      "created_at": 1612930665755,
+      "id": "DiGvmXrr6kHCnq0IMoeR5",
+      "message": "စစ်တပ်က လုံးဝပိတ်ထားပါတယ်\nတပ်ထဲကလူတွေလဲ အပြင်ထွက်ရတဲ့ပုံမပေါ်ပါဘူး",
+      "position": {
+        "lat": 17.344104726045746,
+        "lng": 96.50268316268921
+      },
+      "type": "milt",
+      "unitSize": "20-50"
+    },
+    "f2_PhhXVRGgUh4KREJF2E": {
+      "created_at": 1612940294607,
+      "id": "1s75aCo4YRyz7tJK32kJL",
+      "message": "သုခသီတာလမ်းနဲ့ ရန်မျိုးသန့်စင် လမ်းထောင့်မှာ ရဲနဲ့ လုံထိန်းတွေရှိနေကြပါတယ်",
+      "position": {
+        "lat": 19.760221360513306,
+        "lng": 96.08758449554445
+      },
+      "type": "pol",
+      "unitSize": "10-20"
+    },
+    "fViy3J8YIZURUla7rJzKi": {
+      "created_at": 1612754157503,
+      "id": "KHokm5WJkmIhybmdI0q8g",
+      "message": "Police",
+      "position": {
+        "lat": 22.002496822438914,
+        "lng": 96.0854684502519
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "gdWiQeK3aI1TF8TbiUDNo": {
+      "created_at": 1612799025871,
+      "id": "afnaKEpIdp0Gu2qCwqHVZ",
+      "message": "",
+      "position": {
+        "lat": 22.00335074317148,
+        "lng": 96.09849487652848
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "gzgvjIdR3taNp4ztsHqhX": {
+      "created_at": 1612763740806,
+      "id": "R0uD4E7IBfxJ7oX-GZ7P_",
+      "message": "စစ်သားတွေ မြို့တော်ခန်းမ အပေါ်ကနေ sniper နဲ့ နေရာယူထားပါတယ်",
+      "position": {
+        "lat": 16.774835951238064,
+        "lng": 96.15932822227478
+      },
+      "type": "pol",
+      "unitSize": "10-20"
+    },
+    "hP4b91bfexM_0ODYx2Q_B": {
+      "created_at": 1612923703184,
+      "id": "7imsslBSTb4vfGp8TP4_M",
+      "message": "စစ်ကား၊ ရဲကား၊ ရေကား အသင့်အနေအထားရှိသည်",
+      "position": {
+        "lat": 21.964365762568814,
+        "lng": 96.08798502898868
+      },
+      "type": "milt",
+      "unitSize": "20-50"
+    },
+    "hgQavB3p2jEN_ZXz4IgWg": {
+      "created_at": 1612923645472,
+      "id": "ygLuTYnTdZQgRSG1t0jzk",
+      "message": "",
+      "position": {
+        "lat": 17.251676829610393,
+        "lng": 96.46784663200378
+      },
+      "type": "milt",
+      "unitSize": "20-50"
+    },
+    "i908vwK3OuX6ok0njYNmy": {
+      "created_at": 1612968711903,
+      "id": "EpVRfanGcwMGEvwXe7_Mc",
+      "message": "အဖမ်းအဆီးရှိနေပါသည်။",
+      "position": {
+        "lat": 21.981251733899246,
+        "lng": 96.12781692235116
+      },
+      "type": "pol",
+      "unitSize": "50-100"
+    },
+    "jtN5nP90fBUk7O3prCLHW": {
+      "created_at": 1612754020314,
+      "id": "uho6x5qlI48nnGWHeQ5VC",
+      "message": "Police",
+      "position": {
+        "lat": 21.981813571538144,
+        "lng": 96.10646196535453
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "kCugYAHjxoJpkQhRvREku": {
+      "created_at": 1612968730066,
+      "id": "F2Zve04qfiBDsei4J9eZf",
+      "message": "အဖမ်းအဆီးရှိနေပါသည်။",
+      "position": {
+        "lat": 21.981244080976733,
+        "lng": 96.12815076156214
+      },
+      "type": "milt",
+      "unitSize": "50-100"
+    },
+    "kL6nEDMC-_oNPsxyIhY9l": {
+      "created_at": 1612882477408,
+      "id": "FAaldtXX2d9bR6mjeRCet",
+      "message": "ကယ်ဆယ်ရေး ပရဟိတာယဥ်များ",
+      "position": {
+        "lat": 16.779427607117075,
+        "lng": 96.16000413894653
+      },
+      "type": "resc",
+      "unitSize": "20-50"
+    },
+    "lnYsq-BPtlYODpN0z-T6x": {
+      "created_at": 1612924393455,
+      "id": "zrMnzT1i9xPQQZ5sSTOzu",
+      "message": "",
+      "position": {
+        "lat": 17.338594978266233,
+        "lng": 96.48800611495973
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "m29An02A21kiUtTtFkdP4": {
+      "created_at": 1612880939332,
+      "id": "Y4FpW-0iOVRBTddeuJXvv",
+      "message": "ရဲ တွေ ကို ကေတုမတီဆောင် နဲ့ မြတ်လေးဆောင်တွေမှာ နေရာချထားပါတယ် \nသူတို့ ခြေကုပ်ယူတဲ့နေရာဖြစ်နိုင်ပါတယ်",
+      "position": {
+        "lat": 16.8482788478961,
+        "lng": 96.13378822803499
+      },
+      "type": "pol",
+      "unitSize": "200-above"
+    },
+    "mTk2yRCWfQPmdnut6B1PM": {
+      "created_at": 1612880609611,
+      "id": "XMCLGahUPlEPuKRI_sre9",
+      "message": "တပ်ရင်းတစ်ခုလုံး တပ်စွဲထား",
+      "position": {
+        "lat": 21.95233804492063,
+        "lng": 96.07771772420756
+      },
+      "type": "milt",
+      "unitSize": "50-100"
+    },
+    "mgLx40BtNJUOM05mBT4Ed": {
+      "created_at": 1612880512597,
+      "id": "SYcDAteUqiQRQ4JAJTe1J",
+      "message": "ဂိတ်စောင့် တပ်သား ၃ ၄ ဦးရှိ",
+      "position": {
+        "lat": 21.954332407522436,
+        "lng": 96.0796916990606
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "nC976GWn1K_tlf8_W--NK": {
+      "created_at": 1612735567627,
+      "id": "V7o8Z2RaJ-P4NvG5r3e0d",
+      "message": "",
+      "position": {
+        "lat": 21.981180658157374,
+        "lng": 96.09379093738505
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "nM0Bp4HTOVDzv5ph8AhUf": {
+      "created_at": 1612881150942,
+      "id": "7VMANPVYUv9N2JWPiSi09",
+      "message": "သစ်တောရုံးလမ်းနဲ့ ဗဟိုလမ်းထိပ် \nလမ်းပိတ်ထားပါတယ် ",
+      "position": {
+        "lat": 16.48287003991636,
+        "lng": 97.62123405933382
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "njyLamcvFMF7lpud4Ro2N": {
+      "created_at": 1612924419440,
+      "id": "PJoI7tqSJ7YKpmOImJqS_",
+      "message": "",
+      "position": {
+        "lat": 17.33722775686959,
+        "lng": 96.48619294166566
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "ntsAVq-c-gvsxbDcpOYr_": {
+      "created_at": 1612881202584,
+      "id": "UrxzqJ6KO2-TrZkh00nNV",
+      "message": "ဗဟိုလမ်းနဲ့ မြို့မ တံတားလမ်းမှာလည်\nလမ်းပိတ်ထားပါတယ် ",
+      "position": {
+        "lat": 16.48466013151521,
+        "lng": 97.62180268764497
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "oAOWLsvG9U_5pC9-U66CQ": {
+      "created_at": 1612927371199,
+      "id": "yJABlzkkisNN1qiI4lga8",
+      "message": "ရဲ တပ်ဖွဲ့ အင်အား ၂၀ ခန့် ဆန္ဒပြသူတွေ နဲ့ ရဲတွေညှိနှိုင်းနေကြပါတယ်",
+      "position": {
+        "lat": 16.46595594407274,
+        "lng": 97.62370705604555
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "pZkY6Nh-g7j3RlrGLBgd4": {
+      "created_at": 1612762497887,
+      "id": "bMkoLxAIQFy7Lue-U3tAg",
+      "message": "Sakura Towerအပေါ်ဆုံးဘမှာ စစ်သားတွေရှိနေပါတယ် Sniper တွေပါဝင်နိုင်ပါတယ် ",
+      "position": {
+        "lat": 16.77906808549222,
+        "lng": 96.15938723087312
+      },
+      "type": "milt",
+      "unitSize": "10-20"
+    },
+    "pzsM8IzeWbUXZA9nggPUU": {
+      "created_at": 1612881035153,
+      "id": "P7bxLXOuuGKmH2DJrtUzV",
+      "message": "ဂိတ်စောင့်တပ်သား ၃ ၄ ဦးရှိ",
+      "position": {
+        "lat": 21.951683070260522,
+        "lng": 96.08285645961914
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "qAGqd2ucplTKU3Gyq238z": {
+      "created_at": 1612922090881,
+      "id": "WPipWOoQcEoo0eaFHLQD4",
+      "message": "ပဲခူးအဝင်",
+      "position": {
+        "lat": 17.314587753296795,
+        "lng": 96.46408081054689
+      },
+      "type": "pol",
+      "unitSize": "10-20"
+    },
+    "qR0Ps1nZsNCfRW0YDmwLm": {
+      "created_at": 1612754135380,
+      "id": "Zcl3BRNbYxZlPE2YMeD91",
+      "message": "Police",
+      "position": {
+        "lat": 21.999632257441704,
+        "lng": 96.08528957006926
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "qVAPA-TgwS4Ttn4ZTjN74": {
+      "created_at": 1612939889312,
+      "id": "nP4EJx4mVVMcLJUyTnuuz",
+      "message": "ရဲ/လုံထိန်းတွေ အဝိုင်းထိပ်ကနေ လွှတ်တော်လမ်းမတလ​ျှောက်ပိတ်ထားတာပါ",
+      "position": {
+        "lat": 19.776206565964706,
+        "lng": 96.13156007921813
+      },
+      "type": "pol",
+      "unitSize": "20-50"
+    },
+    "qaPciucrqo8NiX1u6SQyV": {
+      "created_at": 1612751402013,
+      "id": "P1sTn-9skTWt9TgjCgN52",
+      "message": "2 police",
+      "position": {
+        "lat": 21.984485521244242,
+        "lng": 96.11008251423048
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "r1IVj2crr8lYuy2pOOEa6": {
+      "created_at": 1612844760247,
+      "id": "q6HDsllIuBr1F08BjH7_G",
+      "message": "တက္ကသိုလ်ရိပ်သာ လမ်းမှာ ရေကားတွေနဲ့ ပိတ်ထားပါပြီ",
+      "position": {
+        "lat": 16.82590288368768,
+        "lng": 96.13397598266603
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "rI8Yf8UNHuaqxnZbUpktk": {
+      "created_at": 1612938906012,
+      "id": "C-W55Y1LPVNUNLMqFkHvc",
+      "message": "",
+      "position": {
+        "lat": 19.747025072589047,
+        "lng": 96.11673038481426
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "s4ONi5W3drVvnCX4ZCsuE": {
+      "created_at": 1612735467895,
+      "id": "n5cKzd5o-OdYuIKqim2Xo",
+      "message": "",
+      "position": {
+        "lat": 21.981245294520082,
+        "lng": 96.0921480174866
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "sK3z15w_e9qp6YtkOTxUp": {
+      "created_at": 1612881001837,
+      "id": "Q4X9yMgVpgYW-ghK8Lwbs",
+      "message": "ဂိတ်စောင့်တပ်သား ၃ ၄ ဦးရှိ",
+      "position": {
+        "lat": 21.95070843680911,
+        "lng": 96.07664443820414
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "sm2-r4xtsL7yIUCP1_PRf": {
+      "created_at": 1612764677361,
+      "id": "aUd6v8AiOs90NJ5AMNw2C",
+      "message": "Yangon Stock exchange အဆောက်အအုံမှာ စစ်သားတချို့ sniperနဲ့ စောင့်နေကြပါတယ်",
+      "position": {
+        "lat": 16.771538519188685,
+        "lng": 96.15908145904542
+      },
+      "type": "milt",
+      "unitSize": "10-20"
+    },
+    "u8d0maKISuZr4MGdv5xtR": {
+      "created_at": 1612937943914,
+      "id": "gBu-F_zqxTCIQKZYpnk9O",
+      "message": "",
+      "position": {
+        "lat": 21.96028890198541,
+        "lng": 96.07647136667498
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "uHyggVatrUrznkjYjdP9P": {
+      "created_at": 1612922484162,
+      "id": "gxckeD4N40zKeKA1S8cnM",
+      "message": "ဗိုလ်ချုပ်ကြေးရုပ်နားမှာ အတားအဆီးတွေချ ထားပါတယ်",
+      "position": {
+        "lat": 22.116684057419054,
+        "lng": 95.13168811798097
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "uXWegkwXUsiF0LmxqSk4M": {
+      "created_at": 1612754116782,
+      "id": "cetpetPysKBPU3IFTdyOT",
+      "message": "Police",
+      "position": {
+        "lat": 21.996583774577267,
+        "lng": 96.0851604425065
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "ugHBiNlfaFTKMU7c-EEiD": {
+      "created_at": 1612754126690,
+      "id": "cBnBQtLHe2ANR1KmotiT3",
+      "message": "Police",
+      "position": {
+        "lat": 21.997781010721887,
+        "lng": 96.08518112958537
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "vJ-0Q5n1tIzdHkoL6I6B2": {
+      "created_at": 1612944581987,
+      "id": "WhCiZseeo5imo4V1ZtEyn",
+      "message": "ကယ်ဆယ်ရေးဆေးခန်း ဦးထွန်းလင်းခြံလမ်းထိပ်မှာ ရှိပါတယ်\nကြက်ခြေနီ အလံလေးရှိပါတယ်",
+      "position": {
+        "lat": 16.828177568927956,
+        "lng": 96.13012969493867
+      },
+      "type": "resc",
+      "unitSize": "20-50"
+    },
+    "w07fkbsf0RVgmeCF8uzvV": {
+      "created_at": 1612853074870,
+      "id": "Eb7VNHUKpaR1kIRH5eOLl",
+      "message": "ရဲ အင်အား ၅၀ မှ ၁၀၀ထိရှိ",
+      "position": {
+        "lat": 16.77420934082698,
+        "lng": 96.15972518920898
+      },
+      "type": "pol",
+      "unitSize": "50-100"
+    },
+    "waI3BIrcfPbf-gDNDrFqz": {
+      "created_at": 1612798955754,
+      "id": "AuUtnuSfJ5kRwmftn6WV-",
+      "message": "",
+      "position": {
+        "lat": 21.99977837518166,
+        "lng": 96.10783720819215
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "xK2rnPq3T8PK77jH_ma1J": {
+      "created_at": 1612735520251,
+      "id": "AuN0SjA0pdWWeCU3fcEuh",
+      "message": "",
+      "position": {
+        "lat": 21.98111509074625,
+        "lng": 96.09583535295883
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "xKTV1fJgubS3L_IGIXm-F": {
+      "created_at": 1612798913843,
+      "id": "OsSbmbtOe5BuRni6HPYuT",
+      "message": "",
+      "position": {
+        "lat": 21.987982571176584,
+        "lng": 96.10716774838922
+      },
+      "type": "bearer",
+      "unitSize": "10-20"
+    },
+    "zP0RznPBZFJKXMcf8DzZd": {
+      "created_at": 1612924898382,
+      "id": "UF_XZSJF9Y24CTtTFsXQh",
+      "message": "",
+      "position": {
+        "lat": 17.33731992941876,
+        "lng": 96.4863646030426
+      },
+      "type": "pol",
+      "unitSize": "10-20"
+    },
+    "zRD_3RO_Y-T9v03x88NyJ": {
+      "created_at": 1612923436621,
+      "id": "hRsXbqOQn1olG0VIkvQMq",
+      "message": "ပထမစည်း ၊ ဒုတိယစည်း၊ တတိယစည်း ပြင်ထားသည်။",
+      "position": {
+        "lat": 21.96405469735998,
+        "lng": 96.09469790336132
+      },
+      "type": "bearer",
+      "unitSize": "20-50"
+    },
+    "zbIWsjcF8V32K5yjHGSvw": {
+      "created_at": 1612929291282,
+      "id": "k1F30GNHdRnEPdhYw9J39",
+      "message": "မဟာအောင်မြေမြို့နယ် ..အရေးပေါ်ကယ်ဆယ်ရေးနေရာ၊ အရေးပေါ်ကားလည်းရှိပါတယ်။",
+      "position": {
+        "lat": 21.96474106874376,
+        "lng": 96.08602388528483
+      },
+      "type": "resc",
+      "unitSize": "20-50"
+    },
+    "zq3juNoeWHDBJJCZD6lMP": {
+      "created_at": 1612924775790,
+      "id": "ujJmfM8yGFnwQHGO8tUiK",
+      "message": "",
+      "position": {
+        "lat": 17.336710565596267,
+        "lng": 96.48574233055116
+      },
+      "type": "pol",
+      "unitSize": "20-50"
+    }
+  }
+}
