@@ -12,7 +12,7 @@ const Model = ({ visible, onOkClick, onCancelClick }) => {
         <span className="close" onClick={() => onCancelClick()}>
           &times;
         </span>
-        <br />
+        <br className="clear" />
         <div className="flex">
           <p>တွေ့ရှိသော &nbsp;အရာ</p>
           <select
@@ -47,7 +47,7 @@ const Model = ({ visible, onOkClick, onCancelClick }) => {
           </div>
         )}
         <div className="flex">
-          <p>ပြောလိုသောအရာ</p>
+          <p>ပြောလိုသော အရာ</p>
           <textarea
             cols="20"
             rows="10"

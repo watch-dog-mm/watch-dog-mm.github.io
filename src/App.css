@@ -38,21 +38,34 @@
 }
 
 select {
-  margin: 50px;
-  width: 150px;
+  margin: 30px;
+
   padding: 5px 35px 5px 5px;
   font-size: 16px;
-  right: 10px;
-  top: 60px;
-  width: calc(100vw / 3);
-  position: absolute;
-  z-index: 1001;
+
+  width: 40vw;
+
   border: 1px solid #ccc;
   height: 34px;
   -webkit-appearance: none;
   appearance: none;
-  background: url(https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png)
-    94% / 3% no-repeat #fff;
+  background: #fff;
+}
+
+.location-selector-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 60px;
+  z-index: 1000;
+}
+.location-selector {
+  position: relative;
+  left: -50%;
+}
+@media screen and (max-width: 480px) {
+  select {
+    width: 90vw;
+  }
 }
 
 /* CAUTION: Internet Explorer hackery ahead */
@@ -75,4 +88,8 @@ select::-ms-expand {
 
 .flex {
   display: flex;
+}
+
+.clear {
+  clear: both;
 }

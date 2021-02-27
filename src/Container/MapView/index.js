@@ -65,31 +65,38 @@ function MapView() {
         }}
       ></Model>
       <FirebaseDatabaseProvider firebase={firebase} {...config}>
-        <select
-          onChange={(e) => {
-            setlatlng({
-              lat: parseFloat(e.target.value.split("|")[0]),
-              lng: parseFloat(e.target.value.split("|")[1]),
-            });
-          }}
-        >
-          <option value="16.8409|96.1735" selected>
-            Yangon
-          </option>
-          <option value="21.9588|96.0891">Mandalay</option>
-          <option value="24.1821769|96.329305">ကသာ(Kathar)</option>
-          <option value="22.1097701|95.1243952">မုံရွာ(Monywa)</option>
-          <option value="18.8239172|95.2247068">ပြည်(Pyay)</option>
-          <option value="17.3050582|96.4407641">ပဲခူး(Bago)</option>
-          <option value="16.9347022|97.3326008">(သထုံ)Tha Htone </option>
-          <option value="16.4537233|97.5891465">(မော်လမြိုင်)MawlaMyine</option>
-          <option value="19.7633|96.0785">Naypyi Daw</option>
-          <option value="14.0828|98.1940">ထားဝယ်(Dawei)</option>
-        </select>
+        <div className="location-selector-wrapper">
+          <div className="location-selector">
+            <select
+              onChange={(e) => {
+                setlatlng({
+                  lat: parseFloat(e.target.value.split("|")[0]),
+                  lng: parseFloat(e.target.value.split("|")[1]),
+                });
+              }}
+            >
+              <option value="16.8409|96.1735" selected>
+                Yangon
+              </option>
+              <option value="21.9588|96.0891">Mandalay</option>
+              <option value="24.1821769|96.329305">ကသာ(Kathar)</option>
+              <option value="22.1097701|95.1243952">မုံရွာ(Monywa)</option>
+              <option value="18.8239172|95.2247068">ပြည်(Pyay)</option>
+              <option value="17.3050582|96.4407641">ပဲခူး(Bago)</option>
+              <option value="16.9347022|97.3326008">(သထုံ)Tha Htone </option>
+              <option value="16.4537233|97.5891465">
+                (မော်လမြိုင်)MawlaMyine
+              </option>
+              <option value="19.7633|96.0785">Naypyi Daw</option>
+              <option value="14.0828|98.1940">ထားဝယ်(Dawei)</option>
+            </select>
+          </div>
+        </div>
         <MapContainer
           style={{ height: `100vh` }}
           center={[latlng.lat, latlng.lng]}
           zoom={13}
+          zoomControl={false}
           scrollWheelZoom={false}
         >
           <AddMarkerToClick
@@ -100,7 +107,6 @@ function MapView() {
                 setModelVisible(true);
               } else {
                 const password = prompt("Please enter master password:", "");
-                console.log(sha256(password));
                 if (
                   password &&
                   sha256(btoa(password)) ===
@@ -118,7 +124,7 @@ function MapView() {
 
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}.png"
           />
           <PersonMarker
             position={[userPositon.lat, userPositon.lng]}

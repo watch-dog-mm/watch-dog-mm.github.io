@@ -29,8 +29,8 @@
   width: 80%; /* Could be more or less, depending on screen size */
   position: relative;
   top: 25%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
 }
 
 .modal-content select {
@@ -42,6 +42,7 @@
   margin: 10px;
   position: unset;
   flex-grow: 1;
+  width: 90vw;
 }
 .modal-content button {
   padding: 15px;

@@ -7,7 +7,7 @@ const SideNav = () => {
     <>
       <div id="mySidenav" className={`sidenav ${toggleClass}`}>
         <div
-          class="closebtn"
+          className="closebtn"
           onClick={() => {
             setToggle("close-nav");
           }}
